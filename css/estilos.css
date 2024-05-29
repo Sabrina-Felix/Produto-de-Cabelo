@@ -1,0 +1,175 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 38px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'Arkitech Medium';
+    src: url('../fonts/Arkitech\ Medium.ttf') format('truetype');
+}
+
+header {
+    background-color: #F28963;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 150px;
+    padding: 15px 30px;
+}
+
+header nav {
+    align-self: flex-end;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+    padding: 25px;
+    font-family: 'Arkitech Medium';
+}
+
+nav a:hover {
+    color:#05C7F2;
+    font-weight: bold;
+}
+#imagem-banner img
+{
+    width: 100%;
+ 
+  }
+
+  footer {
+    margin-top: auto;
+    width: 100%;
+    height: 100px;
+  
+    background-color: #F28963;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer span {
+    font-family: 'Arkitech Medium';
+    font-size: 15px;
+    color: #ffde59;
+}
+#divisao-imagem
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 40px 40px;
+}
+#divisão
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 40px 40px;
+    
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+h2:hover{
+    color: #F2167D;
+    font-weight: bold;
+}
+.preco
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #F2167D;
+}
+
+
+
+
+/*https://color.adobe.com/pt/explore?page=2*/
+
+/*** Parte do Shampoo ***/
+
+
+#divisao-a
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    }
+#divisao-b
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+  
+}
+.tamanho-imagem
+{
+    height: 250px;
+}
+.box-imagem
+{
+    width: 32%;
+    text-align: center;
+}
+
+#container-A
+{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: 0px auto;
+ 
+}
+
+#lado-a
+{
+  
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    }
+#comprar-botao
+{
+    padding: 10px 10px;
+   width: 150px;
+   background-color: #F28963;
+   color: white;
+   border: #05C7F2;
+  font-family:'Arkitech Medium' ;
+}
+#comprar-botao:hover
+{
+    background-color: #05C7F2;
+    color: black;
+}
+.imagem-detalhe
+{
+    height: 400px;
+}
